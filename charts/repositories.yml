@@ -7,8 +7,7 @@ repositories:
       - https://charts.jetstack.io
   - prefix: jenkins-x
     urls:
-      - https://storage.googleapis.com/chartmuseum.jenkins-x.io
-      - http://chartmuseum.jenkins-x.io
+      - https://jenkins-x-charts.github.io/v2
   - prefix: stable
     urls:
       - https://charts.helm.sh/stable
@@ -17,7 +16,7 @@ repositories:
       - https://flagger.app
   - prefix: gloo
     urls:
-      - https://storage.googleapis.com/solo-public-helm
+      - https://jenkins-x-charts.github.io/v2
   - prefix: vmware-tanzu
     urls:
       - https://vmware-tanzu.github.io/helm-charts
