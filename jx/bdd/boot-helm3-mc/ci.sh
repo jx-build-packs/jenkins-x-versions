@@ -12,7 +12,7 @@ mkdir -p $JX_HOME/git
 
 # TODO not sure we need this?
 helm init --client-only --stable-repo-url https://charts.helm.sh/stable
-helm repo add jenkins-x https://storage.googleapis.com/chartmuseum.jenkins-x.io
+helm repo add jenkins-x https://jenkins-x-charts.github.io/repo
 
 
 jx install dependencies --all
