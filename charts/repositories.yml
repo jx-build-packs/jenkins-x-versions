@@ -14,9 +14,6 @@ repositories:
   - prefix: flagger
     urls:
       - https://flagger.app
-  - prefix: gloo
-    urls:
-      - https://jenkins-x-charts.github.io/v2
   - prefix: vmware-tanzu
     urls:
       - https://vmware-tanzu.github.io/helm-charts
